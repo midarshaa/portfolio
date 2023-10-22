@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0a2647;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  background-color: #144272;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: #559bf5;
+  font-size: 1.04rem;
+}
+.left {
+  font-size: 1.5rem;
+}
+.First {
+  display: flex;
+  justify-content: space-around;
+  margin: 105px 0;
+}
+.First > div {
+  width: 30%;
+}
+.leftSection {
+  position: relative;
+  left: 30px;
+  top: 20px;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.rightSection img {
+  width: 70%;
+}
+.name {
+  color: #559bf5;
+}
+#element {
+  color: #559bf5;
+}
+main hr {
+  border: none;
+  background-color: #8abdff;
+  height: 0.4px;
+  margin: 30px 84px;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.grey {
+    color: #2C74B3;
+  }
+  
+.secondSection h1 {
+  font-size: 1.8rem;
+}
+.secondSection .box {
+  background-color: white;
+  width: 157vh;
+  height: 1px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondSection .vertical{
+    height: 53px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.image-top{
+    width: 0px;
+    position: relative;
+    bottom: 29px;
+    right: 17px;
+}
+.vertical-title{
+    width: 150px;
+    position: relative;
+    top: 45px;
+    right: 77px; 
+}
+.vertical-desc{
+    width: 184px;
+    position: relative;
+    top: 80px;
+    right: 75px;
+    color:#559bf5;
+    text-align: left;
+}
+.thirdSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    position: relative;
+    left: 30px;
+}
+.about h1{
+    font-size:2rem ;
+    margin: 30px 40px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.aboutMes{
+    margin-top: 50px;
+    width: 800px;
+    line-height: 2;
+}
+.foot1{
+    background-color: #004a8b;
+    height:190px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+footer ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  footer a{
+    margin-left: 5px;
+  }
+  footer a:hover{
+    font-size: 1.3rem;
+    color: #76c1f2; 
+  }
